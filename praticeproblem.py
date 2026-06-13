@@ -31,7 +31,19 @@
 
 # 4.#area of triangle
 
-base=float(input("Enter The Base Of The Triangel\n"))
-hieght=float(input("Enter The Hieght Of The Triangle\n"))
-area=0.5*base*hieght
-print("The Area Of The Triangle is",area)
+# base=float(input("Enter The Base Of The Triangel\n"))
+# hieght=float(input("Enter The Hieght Of The Triangle\n"))
+# area=0.5*base*hieght
+# print("The Area Of The Triangle is",area)
+
+#5.calculate sq root
+num=int(input("Enter the no \n"))
+for i in range(1,num+1):
+    if num==i*i :
+        print("the sqrt of this num is:",i)
+        break
+
+else:
+        import math
+        result=math.sqrt(num)
+        print("The sqrt of the" ,num, "is:",result)

@@ -1,4 +1,9 @@
-rows=5
-for i in range(1,rows+1):
-    print((" ",rows-i), end="")
-    print("*",(2*i-1))
+4#prime number check using for loop
+# num=int(input("enter a number to check if it is prime or not\n"))
+# if num>1:
+#     for i in range(2,num+1):
+#         if(num%2==0):
+#             print(num,"is not a prime number")
+#             break
+#     else:
+#         print(num,"is a prime number")

@@ -1,0 +1,2 @@
+my_n=6
+print(my_n)

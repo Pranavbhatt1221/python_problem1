@@ -37,13 +37,38 @@
 # print("The Area Of The Triangle is",area)
 
 #5.calculate sq root
-num=int(input("Enter the no \n"))
-for i in range(1,num+1):
-    if num==i*i :
-        print("the sqrt of this num is:",i)
-        break
+# num=int(input("Enter the no \n"))
+# for i in range(1,num+1):
+#     if num==i*i :
+#         print("the sqrt of this num is:",i)
+#         break
 
-else:
-        import math
-        result=math.sqrt(num)
-        print("The sqrt of the" ,num, "is:",result)
+# else:
+#         import math
+#         result=math.sqrt(num)
+#         print("The sqrt of the" ,num, "is:",result)
+
+
+#6.decimal to binary
+# def bin_conv(n):
+#     if n>1:
+#         bin_conv(n//2)
+#     print(n%2,end="")
+
+# n=int(input("Enter the number:\n"))
+# bin_conv(n)
+
+# n=int(input("Enter a no\n"))
+# b =bin(n)
+# b=b.replace("0b","")
+# print(b)
+7#.
+# n=input("enter a string\n")
+# reverse=reversed(n)
+# flip_text="".join(reverse)
+# print(flip_text)
+
+n=input("ty smt\n")
+rev_text=n[:: -1]
+
+print(rev_text)
